@@ -7,26 +7,27 @@ body {
 }
 
 /* Style the header */
-header {
-  background-color: #666;
+ header {
+  background-color:#FF4500 ;
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: white;
+  color:white
 }
+
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-  float: left;
-  width: 15%;
-  /*height: 300px;  only for demonstration, should be removed */
-  background: #FFFFFF;
-  padding: 20px;
+ float: left;
+  width:15%;
+  /*height: 300px; Only for demonstration,should be removed */
+ background: #32CD32;
+padding:20px:
 }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
+/*Style the list inside the menue*/
+nav ul{
+list-style-type: none;
   padding: 0;
 }
 
@@ -34,7 +35,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #FFFFFF;
+  background-color:#00BFFF;
   /* height: 300px;  only for demonstration, should be removed */
 }
 
@@ -47,7 +48,7 @@ section:after {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: #5E60CE;
   padding: 10px;
   text-align: center;
   color: white;
@@ -69,7 +70,7 @@ footer {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+
 }
 
 /* Clear floats after the columns */
@@ -78,3 +79,19 @@ footer {
   display: table;
   clear: both;
 }
+
+
+/* Left and right column */
+.column.side {
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+}
+
+/* Middle column */
+.column.middle {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
